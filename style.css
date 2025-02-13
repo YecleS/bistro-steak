@@ -170,7 +170,7 @@
 /* Start of Hero Section */
 .hero-section {
     height: 90svh;
-    background: url(/assets/hero-bg-1.png);
+    background: url(assets/hero-bg-1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -356,7 +356,7 @@
 
 .discover-section {
     padding: 8rem 1rem;
-    background: url(/assets/discover\ bg.png);
+    background: url(assets/discover\ bg.png);
 }
 
 .discover-section__wrapper {
