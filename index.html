@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <title>Task 1</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <img src="/assets/logo.png" alt="">
+
+            <nav id="navigation">
+                <i class="fa-solid fa-xmark" onclick="toggleSideBar()"></i>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Menu</p>
+                <p>Events</p>
+                <p>Reservation</p>
+
+                <button class="solid-button">Contact Us</button>
+            </nav>
+            <i class="fa-solid fa-bars" onclick="toggleSideBar()"></i>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-section__wrapper">
+                <div class="hero-section__text-content-wrapper">
+                    <h3>Welcome to Steak Bistro</h3>
+                    <h6>Enjoy <span>Delicious Steaks</span> <br> and Filipino Dishes</h6>
+                    
+                    <div class="hero-section__hero-button-wrapper">
+                        <button class="solid-button">Reserve Your Table</button>
+                        <button class="hallow-button">View Our Menu</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="story-section">
+            <div class="story-section__wrapper">
+                <img src="/assets/story-img.png" alt="story image">
+
+                <div class="story-section__text-content-wrapper">
+                    <h3 class="sub-heading">Our Story</h3>
+                    <h6 class="heading">
+                        <span class="color-red">Where Flavor</span> 
+                        <br>Meets Passion
+                    </h6>
+                    <p class="paragraph">Welcome to Steak Bistro! We are a cozy and friendly restaurant in the heart of Cabuyao, Laguna, Philippines. Our chefs are passionate about food and love to mix classic steaks with the rich flavors of Filipino cuisine. Whether you’re here for a quick lunch, a family dinner, or a special occasion, we promise a great meal and warm hospitality.</p>
+                    
+                    <button class="solid-button">Discover More Delight</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <div class="menu-section__text-content-wrapper">
+                <h3 class="sub-heading">Explore Our Menu</h3>
+                <h6 class="heading">
+                    Indulge in Our <br>
+                    <span class="color-red">Culinary Creations</span>
+                </h6>
+                <p class="paragraph">Steak Bistro is where exceptional flavors and a warm, inviting <br>atmosphere come together to create the perfect dining experience.</p>
+            </div>
+            <div class="menu-section__card-wrapper">
+                <img src="/assets/menu-card-2.png" alt="menu card 1">
+                <img src="/assets/menu-card-1.png" alt="menu card 2" id="focus-menu-card">
+                <img src="/assets/menu-card-3.png" alt="menu card 3">
+            </div>
+
+            <div class="menu-section__carousel-button-wrapper">
+                <i class="fa-solid fa-arrow-left-long"></i>
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+        </section>
+
+        <section class="events-section">
+            <div class="events-section__text-content">
+                <h6 class="sub-heading">Join Our Events</h6>
+                <div>
+                    <h3 class="heading">Enjoy Fun and Exciting</h3>
+                    <h3 class="heading"><span class="color-red">Events at Steak Bistro!</span></h3>
+                </div>
+                <p class="paragraph">Check out our calendar for upcoming events and special nights.</p>
+            </div>
+            <div class="events-section__cards-wrapper">
+                <img src="/assets/event card 3.png" alt="card 3" id="normal-img">
+                <img src="/assets/event card 1.png" alt="card 1" id="absolute-img">
+                <img src="/assets/event card 2.png" alt="card 2" id="normal-img">         
+            </div>
+            <div class="events-section__carousel-button-wrapper">
+                <i class="fa-solid fa-arrow-left-long"></i>
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+        </section>
+
+        <section class="discover-section">
+            <div class="discover-section__wrapper">
+                <div class="discover-section__text-content">
+                    <h3 class="sub-heading">Dining Awaits</h3>
+                    <div>
+                        <h6 class="heading">Your Perfect Dining</h6>
+                        <h6 class="heading"><span class="color-red">Experience Starts Here</span></h6>
+                    </div>
+                    <button class="solid-button">Discover More Delight</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+
+            <div class="footer__text-content-wrapper">
+                <img src="/assets/logo.png" alt="logo">
+                <p>At Steak Bistro, we’re passionate about delivering an exceptional dining experience. From our perfectly cooked steaks to our warm and welcoming ambiance, every visit is designed to delight your senses.</p>
+            </div>
+
+            <div class="footer__navigation-wrapper">
+                <h3>Navigator</h3>
+
+                <div>
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Menu</p>
+                    <p>Events</p>
+                    <p>Preservation</p>
+                </div>
+            </div>
+
+            <div class="footer__contact-us-wrapper">
+                <h3>Contact Us</h3>
+
+                <div class="footer__contact-content-wrapper">
+                    <div class="footer__contact-details-wrapper">
+                        <img src="/assets/phone icon.png" alt="icon">
+                        <p class="">0917-123-4567</p>
+                    </div>
+                    <div class="footer__contact-details-wrapper">
+                        <img src="/assets/email icon.png" alt="icon">
+                        <p class="">steakbistro@restaurant.ph</p>
+                    </div>
+                    <div class="footer__contact-details-wrapper">
+                        <img src="/assets/location icon.png" alt="icon">
+                        <p class="">930 Mamatid rd, [Cabuyao City, Laguna, Philippines]</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__cta-wrapper">
+                <h3>Subscribe to Our Newsletter</h3>
+
+                <div>
+                    <input type="text" placeholder="Email">
+                    <button class="solid-button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let header = document.querySelector('.header');
+
+        window.addEventListener('scroll', () => {
+            if(window.scrollY > 50){
+                header.classList.add('scrolled');
+            }else {
+                header.classList.remove('scrolled');
+            }
+        })
+
+        const toggleSideBar = () => {
+            let sidebar = document.querySelector('#navigation');
+
+            if(sidebar.classList.contains('active')) {
+                sidebar.classList.remove('active');
+            }else {
+                sidebar.classList.add('active');
+            }
+            
+        }
+
+
+    </script>
+</body>
+</html>
