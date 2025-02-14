@@ -120,7 +120,7 @@
 /* Start of Hero Section */
 @media screen and (min-width: 769px) and (max-width: 999px) {
     .hero-section {
-        background: url(/assets/hero-bg-2.png);
+        background: url(assets/hero-bg-2.png);
         background-position: center;
     }
 
@@ -137,7 +137,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .hero-section {
-        background: url(/assets/hero-bg-2.png);
+        background: url(assets/hero-bg-2.png);
         background-position: center;
     }
 
@@ -155,7 +155,7 @@
 
 @media screen and (max-width: 599px) {
     .hero-section {
-        background: url(/assets/hero-bg-2.png);
+        background: url(assets/hero-bg-2.png);
         background-position: center;
     }
 
